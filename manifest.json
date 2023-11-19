@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Simple YouTube",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://youtube.com/*",
+        "https://youtube.com/*",
+        "http://www.youtube.com/*",
+        "https://www.youtube.com/*"
+      ],
+      "css": ["content.css"],
+      "js": ["content.js"]
+    }
+  ]
+}

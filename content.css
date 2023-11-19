@@ -1,0 +1,30 @@
+#contents
+  > ytd-item-section-renderer:has(> #contents > ytd-reel-shelf-renderer),
+#items > ytd-mini-guide-entry-renderer[aria-label="Shorts"],
+#items > ytd-mini-guide-entry-renderer[aria-label="Library"],
+#items > ytd-guide-entry-renderer > a[title="Shorts"],
+#items
+  > ytd-guide-collapsible-section-entry-renderer
+  > #header
+  > ytd-guide-entry-renderer
+  > a[title="Library"],
+#items
+  > ytd-guide-collapsible-section-entry-renderer
+  > #section-items
+  > ytd-guide-entry-renderer
+  > a[title="History"],
+#items
+  > ytd-guide-collapsible-section-entry-renderer
+  > #section-items
+  > ytd-guide-entry-renderer
+  > a[title="Liked videos"],
+#sections.ytd-guide-renderer
+  > ytd-guide-section-renderer:not(:first-child):not(:last-child),
+#home-container-skeleton,
+#page-manager > ytd-browse[page-subtype="home"],
+#page-manager > ytd-browse[page-subtype="history"],
+#page-manager > ytd-shorts,
+#comments,
+#related {
+  display: none !important;
+}
