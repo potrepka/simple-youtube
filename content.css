@@ -18,6 +18,7 @@
   > #section-items
   > ytd-guide-entry-renderer
   > a[title="Liked videos"],
+#content > ytd-rich-shelf-renderer[is-shorts],
 #sections.ytd-guide-renderer
   > ytd-guide-section-renderer:not(:first-child):not(:last-child),
 #home-container-skeleton,
